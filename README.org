@@ -1,0 +1,11 @@
+* Leemak
+
+This is my persional layout (for emacs user)
+
+[[leemak-layout.png]]
+
+** USE
+sudo cp linux/leemak /usr/share/X11/xkb/symbols/
+
+setxkbmap leemak
+
