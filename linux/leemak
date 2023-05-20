@@ -17,13 +17,13 @@ xkb_symbols "leemak" {
     key <AE11> { [        minus,   underscore,          endash,           emdash ] };
     key <AE12> { [        equal,         plus,        multiply,         division ] };
 
-    key <AD01> { [            f,            F,          atilde,           Atilde ] };
-    key <AD02> { [            l,            L,         lstroke,          Lstroke ] };
-    key <AD03> { [            h,            H,      dead_caron,       asciitilde ] };
-    key <AD04> { [            v,            V,              oe,               OE ] };
-    key <AD05> { [            z,            Z,              ae,               AE ] };
+    key <AD01> { [            w,            W,           aring,            Aring ] };
+    key <AD02> { [            g,            G,     dead_ogonek,       asciitilde ] };
+    key <AD03> { [            d,            D,  dead_diaeresis,       asciitilde ] };
+    key <AD04> { [            f,            F,          atilde,           Atilde ] };
+    key <AD05> { [            b,            B,      dead_breve,       asciitilde ] };
     key <AD06> { [            q,            Q,      adiaeresis,       Adiaeresis ] };
-    key <AD07> { [            w,            W,           aring,            Aring ] };
+    key <AD07> { [            l,            L,         lstroke,          Lstroke ] };
     key <AD08> { [            u,            U,          uacute,           Uacute ] };
     key <AD09> { [            o,            O,          oacute,           Oacute ] };
     key <AD10> { [            y,            Y,      udiaeresis,       Udiaeresis ] };
@@ -31,28 +31,28 @@ xkb_symbols "leemak" {
     key <AD12> { [ bracketright,   braceright,  guillemotright,        0x100203a ] };
     key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
 
-    key <AC01> { [            s,            S,          ssharp,        0x1001e9e ] };
-    key <AC02> { [            r,            R,      dead_grave,       asciitilde ] };
-    key <AC03> { [            n,            N,          ntilde,           Ntilde ] };
-    key <AC04> { [            t,            T,      dead_acute, dead_doubleacute ] };
+    key <AC01> { [            r,            R,      dead_grave,       asciitilde ] };
+    key <AC02> { [            s,            S,          ssharp,        0x1001e9e ] };
+    key <AC03> { [            t,            T,      dead_acute, dead_doubleacute ] };
+    key <AC04> { [            h,            H,      dead_caron,       asciitilde ] };
     key <AC05> { [            k,            K,  dead_abovering,       asciitilde ] };
-    key <AC06> { [            c,            C,        ccedilla,         Ccedilla ] };
-    key <AC07> { [            a,            A,          aacute,           Aacute ] };
+    key <AC06> { [            j,            J,         dstroke,          Dstroke ] };
+    key <AC07> { [            n,            N,          ntilde,           Ntilde ] };
     key <AC08> { [            e,            E,          eacute,           Eacute ] };
-    key <AC09> { [            d,            D,  dead_diaeresis,       asciitilde ] };
+    key <AC09> { [            a,            A,          aacute,           Aacute ] };
     key <AC10> { [            i,            I,          iacute,           Iacute ] };
-    key <AC11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
+    key <AC11> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
 
     key <LSGT> { [            x,            X, dead_circumflex,       asciitilde ] };
     key <AB01> { [            x,            X, dead_circumflex,       asciitilde ] };
-    key <AB02> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
-    key <AB03> { [            b,            B,      dead_breve,       asciitilde ] };
-    key <AB04> { [            m,            M,     dead_macron,       asciitilde ] };
-    key <AB05> { [            j,            J,         dstroke,          Dstroke ] }; //Z appears here too because <LSGT> key is not present on ANSI keyboards
-    key <AB06> { [            p,            P,          oslash,           Oslash ] };
-    key <AB07> { [            g,            G,     dead_ogonek,       asciitilde ] };
-    key <AB08> { [        comma,         less,    dead_cedilla,       asciitilde ] };
-    key <AB09> { [       period,      greater,   dead_abovedot,       asciitilde ] };
+    key <AB02> { [            c,            C,        ccedilla,         Ccedilla ] };
+    key <AB03> { [            m,            M,     dead_macron,       asciitilde ] };
+    key <AB04> { [            p,            P,          oslash,           Oslash ] };
+    key <AB05> { [            v,            V,              oe,               OE ] }; //Z appears here too because <LSGT> key is not present on ANSI keyboards
+    key <AB06> { [            z,            Z,              ae,               AE ] };
+    key <AB07> { [        comma,         less,    dead_cedilla,       asciitilde ] };
+    key <AB08> { [       period,      greater,   dead_abovedot,       asciitilde ] };
+    key <AB09> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
     key <AB10> { [        slash,     question,    questiondown,       asciitilde ] };
 
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
